@@ -149,7 +149,7 @@ type CertificateParameters struct {
 
 // +kubebuilder:object:root=true
 
-// Certificate is a managed resource that represents an AWS Certificate Manager.
+// Certificate is a managed resource that represents an AWS Certificate Manager. Abc
 // +kubebuilder:printcolumn:name="DOMAINNAME",type="string",JSONPath=".spec.forProvider.domainName"
 // +kubebuilder:printcolumn:name="STATUS",type="string",JSONPath=".status.atProvider.status"
 // +kubebuilder:printcolumn:name="READY",type="string",JSONPath=".status.conditions[?(@.type=='Ready')].status"
