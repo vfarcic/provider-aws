@@ -38,7 +38,7 @@ spec:
     schema:
       openAPIV3Schema:
         description: Certificate is a managed resource that represents an AWS Certificate
-          Manager.
+          Manager. Abc
         properties:
           apiVersion:
             description: 'APIVersion defines the versioned schema of this representation
